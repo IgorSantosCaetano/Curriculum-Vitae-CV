@@ -1,0 +1,156 @@
+.Principal {color:blue;}
+.Segundaria {color:rgb(144, 212, 212);}
+.Destaque {color: rgb(121, 146, 29);}
+
+.Fonte-Principal{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.Fonte-Segundaria{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+html {
+    background-color: rgb(144, 212, 212);
+    color: blue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav {
+background-color: #333333;
+overflow:hidden;
+position:fixed;
+}
+
+nav ul {
+list-style-type:none;
+margin: 0;
+padding: 0;
+display: flex;
+}
+
+nav ul li {
+padding: 14px 20px;
+}
+
+nav ul li a {
+color: white;
+text-decoration: none;
+}
+
+nav ul li a:hover {
+background-color: #575757;}
+
+.Barra-de-Navegação {
+   width: 100%;
+}
+
+.Cabeçalho {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width:70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-bottom: 2px solid rgb(121, 146, 29);
+}
+
+.Cabeçalho h1 {
+    align-self: center;
+    position: absolute;
+    top: 50px;
+}
+
+#nome { order: 1;
+align-self: center;
+}
+
+#foto {order: 2;
+align-self: center;
+margin-top: 10%;}
+
+#apresentação {order: 3;}
+
+#dados {order: 4;
+align-self: center;}
+
+h1, h2, h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    color: rgb(121, 146, 29);
+}
+
+footer {
+    background-color:rgb(121, 146, 29);
+    color:blue;
+}
+
+.referencia {
+    position: relative;
+}
+
+#experiencias {
+    position: absolute;
+    top: 1050px;
+    width: 600px;
+    left: 348px;
+    padding-left: 3%;
+    border-top: 2px rgb(121, 146, 29) solid;
+    font-size: 18px;
+}
+
+#educação {
+    margin-left: 30%;
+    margin-bottom: 20%;
+    width: 48%;
+}
+
+
+
+#cursos {
+    justify-self: center;
+    border-top: 2px solid rgb(121, 146, 29);
+}
+
+#cursos h1 {
+    justify-self: center;
+}
+
+
+@media screen and (max-width:768px) {
+ #experiencias {
+    position: static;
+    margin-left: 16%;
+ }
+ #educação {
+    font-size: 20px;
+    margin-bottom: 10%;
+ }
+ nav ul {
+    display: block;
+    margin-top: 140%;
+ }
+.Barra-de-Navegação {
+    width: 105px;
+    height: 100%;
+}
+nav ul li {
+    margin:20%;
+    margin-left: -10%;
+}
+#cursos {
+    margin-left: 16%;
+}
+footer {
+    margin-left: 16%;
+}
+#apresentação {
+    margin-left: 16%;
+}
+.Cabeçalho h1 {
+    position: absolute;
+    margin-left: 20%;
+    top: 0%
+}
+}
